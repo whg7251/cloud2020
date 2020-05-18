@@ -9,4 +9,5 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://localhost:7001/eureka/
+      #      defaultZone: http://localhost:7001/eureka/
+      defaultZone: http://eureka7002.cn:7002/eureka/,http://eureka7001.cn:7001/eureka/ #集群版
