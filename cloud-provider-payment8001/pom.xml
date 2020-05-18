@@ -86,7 +86,7 @@
                 <version>${spring-boot.version}</version>
                 <configuration>
                     <fork>true</fork>
-                    <addResource>true</addResource>
+                    <!--<addResource>true</addResource>-->
                 </configuration>
             </plugin>
 
